@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "project": ["./tsconfig.json"],
+    "allowImportExportEverywhere": false,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "@honzasusek/eslint-config-ts",
+    "@honzasusek/eslint-config-line-spacing"
+  ],
+  "rules": {
+    "@typescript-eslint/naming-convention": [
+      "warn",
+      {
+        "selector": "function",
+        "format": ["PascalCase", "camelCase"]
+      }
+    ],
+    "react-hooks/exhaustive-deps": 0
+  }
+}
