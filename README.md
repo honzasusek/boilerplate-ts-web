@@ -1,6 +1,6 @@
-# Typescript Boilerplate
+# boilerplate-ts
 
-Minimal setup with Typescript ESlint validation running on Babel aimed at CLI app creation.
+Typescript/babel boilerplate aimed at creating CLI apps.
 
 ## Usage
 

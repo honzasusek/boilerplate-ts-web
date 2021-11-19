@@ -1,7 +1,7 @@
 {
-  "name": "@honzasusek/boilerplate-ts",
+  "name": "boilerplate-ts",
   "version": "0.0.1",
-  "description": "Typescript/babel boilerplate",
+  "description": "Typescript/babel boilerplate aimed at creating CLI apps.",
   "keywords": [
     "typescript",
     "babel",
