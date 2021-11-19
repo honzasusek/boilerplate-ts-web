@@ -1,7 +1,7 @@
-# boilerplate-ts
+# boilerplate-ts-web
 
-Typescript/babel boilerplate aimed at creating CLI apps.
+Typescript/babel+webpack boilerplate that outputs a web app.
 
 ## Usage
 
-`npm build` to build as CLI executable.
+`npm i` to install, `make dev` to run webpack's dev server.

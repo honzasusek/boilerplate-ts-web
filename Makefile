@@ -5,5 +5,8 @@ region ?= us-west-1
 
 PACKAGE_VERSION := $(shell node -p "require('./package.json').version")
 
+dev:
+	npx webpack-dev-server --open --config webpack.config.development.ts
+
 build:
-	npx tsc && chmod u+x ./dist/index.js
+	npx webpack build --config webpack.config.production.ts

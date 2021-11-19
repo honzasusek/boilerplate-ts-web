@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
+    "sourceMap": true,
     "noImplicitAny": true,
     "module": "commonjs",
     "target": "esnext",
@@ -8,5 +9,5 @@
     "strictNullChecks": true,
     "isolatedModules": false
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "./webpack.config*.ts"]
 }

@@ -1,3 +1,5 @@
-#!/usr/bin/env node
+const hello: HTMLElement = document.createElement('h1')
 
-console.log('Hello world!')
+hello.innerText = 'Hello world!'
+
+document.body.appendChild(hello)
