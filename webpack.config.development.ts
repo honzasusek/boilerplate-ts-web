@@ -9,6 +9,6 @@ const developmentConfiguration: webpack.Configuration = merge(base, {
     historyApiFallback: true,
     https: false,
   },
-})
+} as webpack.Configuration)
 
 export default developmentConfiguration
